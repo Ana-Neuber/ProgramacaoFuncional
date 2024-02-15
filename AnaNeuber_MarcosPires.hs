@@ -29,7 +29,7 @@ jogo tentativas numero = do
       putStrLn ("\nParabens! Você acertou em " ++ show tentativas ++ " tentativas.")
       atualiza_recorde tentativas
     else do
-        putStrLn ("Seu palpite de " ++ show tentativas ++ " está " ++ compara_palpite (read palpite :: Int) numero ++ " do número correto.")
+        putStrLn ("Seu palpite de " ++ show palpite ++ " está " ++ compara_palpite (read palpite :: Int) numero ++ " do número correto.")
         jogo (tentativas + 1) numero
 
                 
