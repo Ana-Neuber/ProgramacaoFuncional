@@ -1,7 +1,3 @@
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-{-# HLINT ignore "Use camelCase" #-}
-{-# HLINT ignore "Use when" #-}
-
 import System.Random
 
 aleatorio :: IO Int
